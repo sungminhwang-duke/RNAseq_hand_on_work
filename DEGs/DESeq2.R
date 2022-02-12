@@ -15,11 +15,11 @@
 ### Make an index genome by bowtie2
 # https://github.com/BenLangmead/bowtie2
 #   $ cp GCF_000007805.1_ASM780v1_genomic.fna GCF_000007805.1_ASM780v1_genomic.fa
-#   $ bowtie2-build GCF_000007805.1_ASM780v1_genomic.fa ./1_trimming/PsyDC3000
+#   $ bowtie2-build GCF_000007805.1_ASM780v1_genomic.fa ./Index/PsyDC3000
 
 
 ### Alignment of the sequence reads to the index genome by bowtie2
-#   $ for f1 in *R1_val_1.fq ; do for f2 in ${f1%%_R1_val_1.fq}"_R2_val_2.fq" ; do bowtie2 -x ./PsyDC3000 -1 $f1 -2 $f2 -S ./2_sam/$f1.sam ; done; done
+#   $ for f1 in *R1_val_1.fq ; do for f2 in ${f1%%_R1_val_1.fq}"_R2_val_2.fq" ; do bowtie2 -x ./Index/PsyDC3000 -1 $f1 -2 $f2 -S ./2_sam/$f1.sam ; done; done
 
 
 ### File format change by samtools
