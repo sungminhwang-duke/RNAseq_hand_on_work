@@ -55,13 +55,13 @@ library(dendextend)
 
 ### Create a DESeqDataSet object
 # Read the count file containing all bio reps
-mycount <- as.matrix(read.csv("0_Data_2_2021.csv", row.names="gene_id"))
+mycount <- as.matrix(read.csv("Data_2_2021.csv", row.names="gene_id"))
 dim(mycount)
 class(mycount)
 head(mycount, 2)
 
 # Read the meta file 
-coldata <- read.csv("0_Meta_2_2021.csv", row.names = 1)
+coldata <- read.csv("Meta_2_2021.csv", row.names = 1)
 dim(coldata)
 class(coldata)
 coldata <- coldata[,c("Strain", "Chemical")]
