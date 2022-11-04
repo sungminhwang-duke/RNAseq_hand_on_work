@@ -1,10 +1,13 @@
 # RNAseq_hand_on_work
 
-1. Go to the folder "Seup_env" and download a file to make a virtual environment for a data process.
+Part I - for processing the raw sequencing data <br/>
+1. Go to the folder "Seup_env" and download a file to make a virtual environment for a data process. <br/>
 2. Execute this command using Terminal: <br/>
     For Mac: _conda env create -f condaTESTmac.yml_<br/>
     For Linux: _conda env create -f condaTESTlinux.yml_<br/>
    -Keep in mind that the path should be identical to the Terminal and the downloaded file, "condaTESTmac.yml". <br/>
-   -Activate the env in Terminal: source activate condaTESTmac <br/>
-3. Download raw data (toy data) and materials for the data process, as well as the "run-rnaseq.sh" file.
-4. For the DEG analysis, go to "DEGs" folder and download the exercise dataset (toy data) and DESeq2 command lines.
+   -Activate the env with this command: _source activate condaTESTmac_ <br/>
+3. Download raw data (toy data) and materials, as well as the "run-rnaseq.sh" file for the seq data processing. <br/>
+
+Part II - for the data analysis
+1. For the DEG analysis, go to "DEGs" folder and download the exercise dataset (toy data) and DESeq2 command lines.
