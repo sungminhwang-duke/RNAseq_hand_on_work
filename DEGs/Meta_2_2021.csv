@@ -1,0 +1,5 @@
+Label,Strain,Chemical,Replicate,RIN,RNA_conc_ng_ul,Ratio_260_280,Ratio_260_230,rRNA_ratio,Index_no,Index_info,No_Reads_alignment,Alignment_perc, No_total_Count 
+Control1_2021,Pectobacterium_atrosepticum_SCRI1043,none,1,,,,,,,,,99.29,"10,570,068"
+Control2_2021,Pectobacterium_atrosepticum_SCRI1043,none,2,,,,,,,,,96.81,"10,165,091"
+Hopeaphenol1_2021,Pectobacterium_atrosepticum_SCRI1043,Hopea,1,,,,,,,,,97.64,"10,375,042"
+Hopeaphenol2_2021,Pectobacterium_atrosepticum_SCRI1043,Hopea,2,,,,,,,,,97.48,"10,400,903"
