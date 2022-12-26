@@ -1,7 +1,7 @@
 # RNAseq_hand_on_work
 
 Part I - for processing the raw sequencing data <br/>
-1. Go to the folder "Seup_env" and download a file to make a virtual environment for a data process. <br/>
+1. Go to the folder "Setup_env" and download a file to make a virtual environment for a data process. <br/>
 2. Execute this command in the linux-based operational system: <br/>
     For Mac: _conda env create -f condaTESTmac.yml_<br/>
     For Linux: _conda env create -f condaTESTlinux.yml_<br/>
